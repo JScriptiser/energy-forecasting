@@ -1,0 +1,33 @@
+[project]
+name = "co2-forecast"
+version = "0.1.0"
+description = "Hourly 7-day forecast of the CO2 emission factor of Dutch electricity production from forecasted renewables (NED data)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.2",
+    "pandas>=2.3",
+    "scikit-learn>=1.7",
+    "lightgbm>=4.6",
+    "matplotlib>=3.10",
+    "holidays>=0.80",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.4", "ruff>=0.13"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "NPY", "PD", "RUF"]
+ignore = ["PD010"]  # unstack is the clearest way to spread quantiles into columns
+
+[tool.ruff.lint.per-file-ignores]
+"co2_forecast/plots.py" = ["RUF001"]  # typographic minus and multiplication signs in figure labels
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-p no:cacheprovider"

@@ -1,0 +1,6 @@
+*
+!requirements-dev.txt
+!pyproject.toml
+!co2_forecast/
+!tests/
+**/__pycache__

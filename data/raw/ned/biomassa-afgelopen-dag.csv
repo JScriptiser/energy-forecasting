@@ -1,0 +1,14 @@
+"validfrom (UTC)","validto (UTC)",point,type,granularity,timezone,activity,classification,"capacity (kW)","volume (kWh)",percentage,"emission (kg CO2)","emissionfactor (kg CO2/kWh)"
+"2026-10-15 22:00:00","2026-10-15 23:00:00",Nederland,BiomassPower,Hour,UTC,Providing,Current,657293,657292,0.30537,0,0
+"2026-10-15 23:00:00","2026-10-16 00:00:00",Nederland,BiomassPower,Hour,UTC,Providing,Current,604105,604105,0.2806595,0,0
+"2026-10-16 00:00:00","2026-10-16 01:00:00",Nederland,BiomassPower,Hour,UTC,Providing,Current,546362,546362,0.253833,0,0
+"2026-10-16 01:00:00","2026-10-16 02:00:00",Nederland,BiomassPower,Hour,UTC,Providing,Current,538721,538720,0.25028275,0,0
+"2026-10-16 02:00:00","2026-10-16 03:00:00",Nederland,BiomassPower,Hour,UTC,Providing,Current,538907,538905,0.25036925,0,0
+"2026-10-16 03:00:00","2026-10-16 04:00:00",Nederland,BiomassPower,Hour,UTC,Providing,Current,538511,538510,0.250185,0,0
+"2026-10-16 04:00:00","2026-10-16 05:00:00",Nederland,BiomassPower,Hour,UTC,Providing,Current,529480,529479,0.24598975,0,0
+"2026-10-16 05:00:00","2026-10-16 06:00:00",Nederland,BiomassPower,Hour,UTC,Providing,Current,510891,510889,0.23735375,0,0
+"2026-10-16 06:00:00","2026-10-16 07:00:00",Nederland,BiomassPower,Hour,UTC,Providing,Current,506523,506523,0.2353245,0,0
+"2026-10-16 07:00:00","2026-10-16 08:00:00",Nederland,BiomassPower,Hour,UTC,Providing,Current,507291,507291,0.23568125,0,0
+"2026-10-16 08:00:00","2026-10-16 09:00:00",Nederland,BiomassPower,Hour,UTC,Providing,Current,519160,519159,0.24119525,0,0
+"2026-10-16 09:00:00","2026-10-16 10:00:00",Nederland,BiomassPower,Hour,UTC,Providing,Current,536188,536187,0.24910625,0,0
+"2026-10-16 10:00:00","2026-10-16 11:00:00",Nederland,BiomassPower,Hour,UTC,Providing,Current,564777,564776,0.26238825,0,0

@@ -1,0 +1,3 @@
+hours,model,MAE
+13,lightgbm,0.03632
+13,ned_forecast,0.02631

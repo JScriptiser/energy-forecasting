@@ -1,0 +1,41 @@
+x-hardened: &hardened
+  build: .
+  image: co2-forecast:local
+  # on Linux with a uid other than 1000: docker compose run --rm --user "$(id -u):$(id -g)" forecast
+  user: "1000:1000"
+  network_mode: none
+  read_only: true
+  cap_drop: [ALL]
+  security_opt: ["no-new-privileges:true"]
+  tmpfs: [/tmp]
+  volumes:
+    - .:/app:ro
+    - ./output:/app/output
+
+services:
+  forecast:
+    <<: *hardened
+
+  tests:
+    <<: *hardened
+    entrypoint: ["python", "-m", "pytest"]
+
+  lint:
+    <<: *hardened
+    entrypoint: ["ruff", "check", "--no-cache", "co2_forecast", "tests"]
+
+  report:
+    image: pandoc/typst@sha256:ae9dfa3c58cae72d363484442993b761ff4bc30202ec12823bc1e59fa952c892
+    user: "1000:1000"
+    network_mode: none
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    tmpfs: [/tmp]
+    working_dir: /work/report
+    environment:
+      HOME: /tmp
+    volumes:
+      - .:/work:ro
+      - ./report:/work/report
+    command: ["report.md", "--pdf-engine=typst", "--resource-path=.:..", "-o", "report.pdf"]

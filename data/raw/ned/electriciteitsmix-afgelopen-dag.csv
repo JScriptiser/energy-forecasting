@@ -1,0 +1,14 @@
+"validfrom (UTC)","validto (UTC)",point,type,granularity,timezone,activity,classification,"capacity (kW)","volume (kWh)",percentage,"emission (kg CO2)","emissionfactor (kg CO2/kWh)"
+"2026-10-15 22:00:00","2026-10-15 23:00:00",Nederland,ElectricityMix,Hour,UTC,Providing,Current,12348194,12348194,0.1868315,4320492,0.3499175
+"2026-10-15 23:00:00","2026-10-16 00:00:00",Nederland,ElectricityMix,Hour,UTC,Providing,Current,12025343,12025343,0.18194625,4157000,0.3456755
+"2026-10-16 00:00:00","2026-10-16 01:00:00",Nederland,ElectricityMix,Hour,UTC,Providing,Current,11627125,11627125,0.1759205,3974206,0.341814
+"2026-10-16 01:00:00","2026-10-16 02:00:00",Nederland,ElectricityMix,Hour,UTC,Providing,Current,11345284,11345284,0.17165575,3968058,0.349776
+"2026-10-16 02:00:00","2026-10-16 03:00:00",Nederland,ElectricityMix,Hour,UTC,Providing,Current,11266033,11266033,0.1704565,3953163,0.35089325
+"2026-10-16 03:00:00","2026-10-16 04:00:00",Nederland,ElectricityMix,Hour,UTC,Providing,Current,11570180,11570180,0.17505775,3980582,0.3440565
+"2026-10-16 04:00:00","2026-10-16 05:00:00",Nederland,ElectricityMix,Hour,UTC,Providing,Current,12127891,12127891,0.1834955,4051944,0.33411925
+"2026-10-16 05:00:00","2026-10-16 06:00:00",Nederland,ElectricityMix,Hour,UTC,Providing,Current,12633677,12633677,0.19114775,4155745,0.32894225
+"2026-10-16 06:00:00","2026-10-16 07:00:00",Nederland,ElectricityMix,Hour,UTC,Providing,Current,13239599,13239599,0.20031475,4298202,0.324666
+"2026-10-16 07:00:00","2026-10-16 08:00:00",Nederland,ElectricityMix,Hour,UTC,Providing,Current,14467058,14467058,0.218886,4304134,0.2977215
+"2026-10-16 08:00:00","2026-10-16 09:00:00",Nederland,ElectricityMix,Hour,UTC,Providing,Current,15464697,15464697,0.23397975,4273968,0.27644975
+"2026-10-16 09:00:00","2026-10-16 10:00:00",Nederland,ElectricityMix,Hour,UTC,Providing,Current,16773130,16773130,0.2537755,4189701,0.25007425
+"2026-10-16 10:00:00","2026-10-16 11:00:00",Nederland,ElectricityMix,Hour,UTC,Providing,Current,17082154,17082154,0.2584505,3890109,0.22772475

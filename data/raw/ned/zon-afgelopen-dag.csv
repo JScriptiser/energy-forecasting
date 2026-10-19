@@ -1,0 +1,14 @@
+"validfrom (UTC)","validto (UTC)",point,type,granularity,timezone,activity,classification,"capacity (kW)","volume (kWh)",percentage,"emission (kg CO2)","emissionfactor (kg CO2/kWh)"
+"2026-10-15 22:00:00","2026-10-15 23:00:00",Nederland,Solar,Hour,UTC,Providing,Current,0,0,0,0,0
+"2026-10-15 23:00:00","2026-10-16 00:00:00",Nederland,Solar,Hour,UTC,Providing,Current,0,0,0,0,0
+"2026-10-16 00:00:00","2026-10-16 01:00:00",Nederland,Solar,Hour,UTC,Providing,Current,0,0,0,0,0
+"2026-10-16 01:00:00","2026-10-16 02:00:00",Nederland,Solar,Hour,UTC,Providing,Current,0,0,0,0,0
+"2026-10-16 02:00:00","2026-10-16 03:00:00",Nederland,Solar,Hour,UTC,Providing,Current,0,0,0,0,0
+"2026-10-16 03:00:00","2026-10-16 04:00:00",Nederland,Solar,Hour,UTC,Providing,Current,0,0,0,0,0
+"2026-10-16 04:00:00","2026-10-16 05:00:00",Nederland,Solar,Hour,UTC,Providing,Current,0,0,0,0,0
+"2026-10-16 05:00:00","2026-10-16 06:00:00",Nederland,Solar,Hour,UTC,Providing,Current,0,0,0,0,0
+"2026-10-16 06:00:00","2026-10-16 07:00:00",Nederland,Solar,Hour,UTC,Providing,Current,93443,93442,0.0036916616666667,0,0
+"2026-10-16 07:00:00","2026-10-16 08:00:00",Nederland,Solar,Hour,UTC,Providing,Current,1598692,1598689,0.063159183333333,0,0
+"2026-10-16 08:00:00","2026-10-16 09:00:00",Nederland,Solar,Hour,UTC,Providing,Current,3187372,3187372,0.12592233333333,0,0
+"2026-10-16 09:00:00","2026-10-16 10:00:00",Nederland,Solar,Hour,UTC,Providing,Current,4964523,4964521,0.1961305,0,0
+"2026-10-16 10:00:00","2026-10-16 11:00:00",Nederland,Solar,Hour,UTC,Providing,Current,6052717,4035143,0.2391205,0,0

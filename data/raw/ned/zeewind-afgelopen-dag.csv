@@ -1,0 +1,14 @@
+"validfrom (UTC)","validto (UTC)",point,type,granularity,timezone,activity,classification,"capacity (kW)","volume (kWh)",percentage,"emission (kg CO2)","emissionfactor (kg CO2/kWh)"
+"2026-10-15 22:00:00","2026-10-15 23:00:00",Nederland,WindOffshoreC,Hour,UTC,Providing,Current,1399723,1399721,0.30886075,0,0
+"2026-10-15 23:00:00","2026-10-16 00:00:00",Nederland,WindOffshoreC,Hour,UTC,Providing,Current,1431290,1431290,0.31582625,0,0
+"2026-10-16 00:00:00","2026-10-16 01:00:00",Nederland,WindOffshoreC,Hour,UTC,Providing,Current,1431289,1431288,0.31582625,0,0
+"2026-10-16 01:00:00","2026-10-16 02:00:00",Nederland,WindOffshoreC,Hour,UTC,Providing,Current,1139576,1139575,0.25145725,0,0
+"2026-10-16 02:00:00","2026-10-16 03:00:00",Nederland,WindOffshoreC,Hour,UTC,Providing,Current,1098877,1098875,0.24247675,0,0
+"2026-10-16 03:00:00","2026-10-16 04:00:00",Nederland,WindOffshoreC,Hour,UTC,Providing,Current,1142735,1142735,0.2521545,0,0
+"2026-10-16 04:00:00","2026-10-16 05:00:00",Nederland,WindOffshoreC,Hour,UTC,Providing,Current,1331630,1331628,0.2938355,0,0
+"2026-10-16 05:00:00","2026-10-16 06:00:00",Nederland,WindOffshoreC,Hour,UTC,Providing,Current,1455090,1455088,0.32107825,0,0
+"2026-10-16 06:00:00","2026-10-16 07:00:00",Nederland,WindOffshoreC,Hour,UTC,Providing,Current,1547499,1547497,0.341469,0,0
+"2026-10-16 07:00:00","2026-10-16 08:00:00",Nederland,WindOffshoreC,Hour,UTC,Providing,Current,1274085,1274084,0.28113775,0,0
+"2026-10-16 08:00:00","2026-10-16 09:00:00",Nederland,WindOffshoreC,Hour,UTC,Providing,Current,734983,734982,0.16218025,0,0
+"2026-10-16 09:00:00","2026-10-16 10:00:00",Nederland,WindOffshoreC,Hour,UTC,Providing,Current,583694,583694,0.128797225,0,0
+"2026-10-16 10:00:00","2026-10-16 11:00:00",Nederland,WindOffshoreC,Hour,UTC,Providing,Current,1158620,579310,0.2556595,0,0

@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+.env
+
+# NED data: only the files the pipeline reads are part of the repository (see data/raw/ned/SOURCE.md)
+data/raw/ned/*
+!data/raw/ned/SOURCE.md
+!data/raw/ned/SHA256SUMS
+!data/raw/ned/electriciteitsmix-202[1-6]-uur-data.csv
+!data/raw/ned/zon-202[1-6]-uur-data.csv
+!data/raw/ned/wind-202[1-6]-uur-data.csv
+!data/raw/ned/zeewind-202[1-6]-uur-data.csv
+!data/raw/ned/biomassa-202[1-6]-uur-data.csv
+!data/raw/ned/*-uur-voorspelling-aankomende-7-dagen.csv
+!data/raw/ned/*-afgelopen-dag.csv
+
+# the assignment itself
+Machine Learning Assignment 2026.pdf
